@@ -4,15 +4,18 @@ html, body {
   margin: 0 auto;
 }
 
-body {
+body 
+  height: 100%;
+  width: 100%;
   font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
   display: flex;
   background-color: black;
   color: #ddd;
   line-height: 130%;
   background-image: url(game-level.jpg);
-  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
 }
 
 a { color: #aaa; }
