@@ -39,6 +39,10 @@ h1 {
   background-color: rgba(0,0,0, 0.75)
 }
 
+tab {
+  text-indent: 40px;
+}
+
 .icon {
   width: 140px;
   height: 140px;
